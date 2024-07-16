@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> osswa's portfolio </title>
-    </head>
-    <body> 
-        <center>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osswa's Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="about">
+
+    <section id="about" class="about-section">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio.i am osswa boughanmi. I am a web developer with a passion for creating beautiful and functional websites.i'm interested in AI and i think i'm willing to learn another skill in this domain</p>
-    </section>
-    <section id="work">
+        <p>Welcome to my portfolio. I am Osswa Boughanmi, a web developer passionate about creating beautiful and functional websites. I'm interested in AI and eager to learn more skills in this domain.</p>
+        <img width="320" height="240" src="img.jpg" alt="Me">
+        <h2>My Source of Motivation</h2>
+        <p>When I feel demotivated, this song helps me a lot.</p>
+        <video width="320" height="240" controls>
+            <source src="./we_can.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section> 
+
+    <section id="work" class="work-section">
         <h2>My Work</h2>
         <ul>
-            <li>Project 1 - i developed a web which helps you to have a healthier life after knowing how long are you and what's your weight </li>
-            <li>Project 2 - A fully responsive personal blog website where users can read and comment on blog posts. The site features a modern design with a clean layout, integrating social media sharing options and a newsletter subscription form.</li>
+            <li>Project 1 - Developed a web app that helps you lead a healthier life by tracking your weight and lifestyle.</li>
+            <li>Project 2 - A fully responsive personal blog website where users can read and comment on blog posts.</li>
         </ul>
     </section>
-    <section id="resume">
+
+    <section id="resume" class="resume-section">
         <h2>Resume</h2>
         <table>
             <tr>
@@ -36,27 +48,15 @@
             </tr>
             <tr>
                 <td>2022</td>
-                <td>teacher of web developement - gomycode</td>
+                <td>Teacher of Web Development - GoMyCode</td>
             </tr>
             <tr>
                 <td>2021</td>
-                <td>web developer - techcompany</td>
+                <td>Web Developer - TechCompany</td>
             </tr>
         </table>
     </section>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio. I am a web developer with a passion for creating beautiful and functional websites.
-            I pride myself on being highly punctual, consistently meeting deadlines and ensuring timely completion of tasks. My commitment to punctuality reflects my respect for others' time and my dedication to professionalism. This trait has been instrumental in building trust with colleagues and clients alike. Additionally, I possess a strong sense of self-motivation, driven by a passion for continuous learning and improvement. I set clear goals for myself, breaking down larger tasks into manageable steps to maintain momentum and focus. By staying organized and embracing a proactive approach, I am able to maintain high levels of productivity and enthusiasm in all my endeavors.</p>
-        <img  width="320" height="240"  src="img.jpg" alt="me" > </img>
-        <h2>my source of motivation</h2>
-        <p>when i feel demotivated this song helps me a lot.</p>
-        <video width="320" height="240"  controls>
-            <source  src="./we can.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section> 
+
     <footer>
         <div class="footer-form">
             <h3>Contact Me</h3>
@@ -72,11 +72,10 @@
                 
                 <button type="submit">Submit</button>
                 <br>
-                <a href="https://www.facebook.com/profile.php?id=100004767586187">you can also contact me on facebook</a>
+                <a href="https://www.facebook.com/profile.php?id=100004767586187">You can also contact me on Facebook</a>
             </form>
         </div>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>   
-</center>
-    </body>
+        <p>&copy; 2024 Osswa's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
 </html>
